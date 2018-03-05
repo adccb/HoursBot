@@ -1,0 +1,6 @@
+dist/
+node_modules/
+ENV.sh
+**/.DS_Store
+**/*.swp
+

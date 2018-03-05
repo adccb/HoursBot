@@ -1,0 +1,32 @@
+{
+  "name": "harvestbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jasmine",
+    "build": "babel src/ -d dist/",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxtetrachord/harvestbot.git"
+  },
+  "author": "autumn crossan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxtetrachord/harvestbot/issues"
+  },
+  "homepage": "https://github.com/mxtetrachord/harvestbot#readme",
+  "dependencies": {
+    "@slack/client": "^3.16.0",
+    "moment": "^2.21.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jasmine": "^3.1.0",
+    "nodemon": "^1.17.1"
+  }
+}
